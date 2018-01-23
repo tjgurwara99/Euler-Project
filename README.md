@@ -1,5 +1,10 @@
-# Euler-Project
-I will be Posting my solutions for the ProjectEuler.net website.
-I prefer to use C++ and also like to make the whole programs from scratch so, I will try and only use the standard libraries.
+## Let's complete every single Project Euler Question!
 
-Currently I am in the process of making a library for the functions used for the problems in the Project Euler website, which I will soon be sharing with everyone. Until then I will be posting small programs for the specific problems, however the programs would have a lot of repeated code(which goes against the idea of not repeating a code) that I have already used in previous problems. This problem would be solved after I make the library, as stated earlier I am in the process of making it and this would boost the time it takes for the problems to be completed.
+### Try to answer as many problems as you can and make sure every problem has only 1 folder for its answers
+### Faster, shorter and cleaner code gets bonus points in the leaderboard we're currently making
+
+
+You can submit multiple answers to a single problem. If an answer uses more than one file it should be all be in a folder.
+
+Make sure you label your answers as the following: [Name][Attempt Number].[]
+for example HHassan1.py make sure to use the same name for all of your answers for the leaderboard
