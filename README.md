@@ -1,10 +1,8 @@
-## Let's complete every single Project Euler Question!
+# Euler-Project
+This repository is a collection of solutions to the projecteuler.net website in C++
 
-### Try to answer as many problems as you can and make sure every problem has only 1 folder for its answers
-### Faster, shorter and cleaner code gets bonus points in the leaderboard we're currently making
+## All the programs use standard library functions
+Most of the functions the I've created in the answers consist of standard C++ functions. My goal for this repository is to create programs that are optimised for performance. This means that I might sometime create functions that may look messy but actually run pretty fast.
 
-
-You can submit multiple answers to a single problem. If an answer uses more than one file it should be all be in a folder.
-
-Make sure you label your answers as the following: [Name][Attempt Number].[]
-for example HHassan1.py make sure to use the same name for all of your answers for the leaderboard
+## Contributors
+Taj (so far its just me)
