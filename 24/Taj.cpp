@@ -1,17 +1,45 @@
 #include<iostream>
-#include<algorithm>
-#include<string>
+#define NUM 1000000
 
-void permute(std::string str, long long num){
-	long long i = 1;
-	while(i<num)
-		std::next_permutation(str.begin(),str.end());
-	std::cout<<str;
+void next_permutation(int arr[]){
+	int i, j;
+	i = j = 9;
+	while(i>0 and arr[i-1] >= arr[i])
+		i--;
+	if(i<=0){
+		std::cout<<"last possible permutation"<<std::endl;
+	}
+	while(arr[j] <= arr[i-1])
+		j--;
+	
+	int temp = arr[i-1];
+	arr[i-1] = arr[j];
+	arr[j] = temp;
+	j = 9;
+	while(i<j){
+		temp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = temp;
+		i++;
+		j--;
+	}
+}
+
+void permute(int num){
+	long i = 1;
+	int arr[] = {0,1,2,3,4,5,6,7,8,9};
+	while(i<num){
+		next_permutation(arr);
+		i++;
+	}
+	for(int i = 0; i < 10; ++i){
+		std::cout<< arr[i];
+	}
+	std::cout<< std::endl;
 }
 
 int main(){
-	std::string s = "0123456789";
-	permute(s, 1000000);
+	permute(NUM);
 	return 0;
 }
 	
