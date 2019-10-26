@@ -12,7 +12,6 @@ int sum_multiple(int value){
 	return sum;
 }
 
-
 int main() {
 	// This is a simple include exclude principle problem - this optimisation runs the code upto 40% faster than before
     cout << sum_multiple(3) + sum_multiple(5) - sum_multiple(15) << endl;
