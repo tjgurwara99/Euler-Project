@@ -11,6 +11,7 @@ using namespace std;
 
 /**
  * Even fibonacci function
+ * @param n nth even fibonacci
  */
 long int evenFib(int n)
 {
