@@ -1,3 +1,9 @@
+/**
+ * Copyright 2020 @author tjgurwara99
+ * @file
+ *
+ * Project Euler Problem Number 2
+ */
 #include<iostream>
 #include<cmath>
 
