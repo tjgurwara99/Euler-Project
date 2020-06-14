@@ -20,6 +20,10 @@ long int evenFib(int n)
     return ((4*evenFib(n-1)) + evenFib(n-2));  
 }
 
+/**
+ * Function for sum of even fibonacci numbers
+ * @param n is the nth fibonacci number
+ */
 void sumEvenFib(long n)
 {
     long sum=0,fib=0;
