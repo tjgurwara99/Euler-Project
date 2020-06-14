@@ -9,6 +9,9 @@
 
 using namespace std;
 
+/**
+ * Even fibonacci function
+ */
 long int evenFib(int n)
 {
     if (n < 1)
