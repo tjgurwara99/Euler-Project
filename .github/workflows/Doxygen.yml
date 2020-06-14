@@ -12,10 +12,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: actions/checkout@v2
     - name: Doxygen Action
       uses: mattnotmitt/doxygen-action@v1.1.0
       with:
         # Path to Doxyfile
-        doxyfile-path: ./Doxyfile # default is ./Doxyfile
+        doxyfile-path: Euler-Project/Doxyfile # default is ./Doxyfile
         # Working directory
         working-directory: . # default is .
