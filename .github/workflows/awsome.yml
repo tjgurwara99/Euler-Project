@@ -13,11 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Doxygen Action
-      uses: mattnotmitt/doxygen-action@v1.1.0
-      with:
-        # Path to Doxyfile
-        doxyfile-path: Euler-Project/Doxyfile # default is ./Doxyfile
-        # Working directory
-        working-directory: . # default is .
+      - uses: actions/checkout@v2
+      - name: Doxygen Action
+        uses: mattnotmitt/doxygen-action@v1.1.0
+        with:
+          # Path to Doxyfile
+          doxyfile-path: Euler-Project/Doxyfile # default is ./Doxyfile
+          # Working directory
+          working-directory: . # default is .
+      - name: C/C++ code linter (clang-tidy, clang-format, and cppcheck)
+        uses: ArtificialAmateur/cpp-linter-action@0.01
