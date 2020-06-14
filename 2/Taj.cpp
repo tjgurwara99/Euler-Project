@@ -42,7 +42,9 @@ void sumEvenFib(long n)
     cout<<sum<<endl;
 }
 
-
+/**
+ * Main function
+ */
 int main()
 {
     const int num = 4000000;
