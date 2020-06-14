@@ -1,3 +1,9 @@
+/**
+ * Copyright 2020 @author tjgurwara99
+ * @file
+ *
+ * Project Euler Problem Number 2
+ */
 #include<iostream>
 #include<cmath>
 
@@ -14,6 +20,10 @@ long int evenFib(int n)
     return ((4*evenFib(n-1)) + evenFib(n-2));  
 }
 
+/**
+ * Function for sum of even fibonacci numbers
+ * @param n is the nth fibonacci number
+ */
 void sumEvenFib(long n)
 {
     long sum=0,fib=0;
@@ -36,7 +46,9 @@ void sumEvenFib(long n)
     cout<<sum<<endl;
 }
 
-
+/**
+ * Main function
+ */
 int main()
 {
     const int num = 4000000;
